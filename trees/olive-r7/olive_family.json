@@ -1,0 +1,1331 @@
+{
+ "species": "olive",
+ "generator": "pipeline/trees/olive_gen.py",
+ "round": 7,
+ "textures": {
+  "bark": "../olive/olive_bark_color.jpg",
+  "barkNormal": "../olive/olive_bark_normal.jpg",
+  "sprays": "olive_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.56,
+  "leafyCells": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "thinCells": [
+   6,
+   7
+  ],
+  "alphaCutoff": 0.4,
+  "shellCells": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "fringeCells": [
+   4,
+   5
+  ]
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "olive_01_patriarch",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.45,
+     1.05
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 12,
+    "clump_r": [
+     0.22,
+     0.34
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.24,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.28,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 11,
+    "age": 1.0,
+    "height": 6.4,
+    "crown_radius": 3.6,
+    "trunk_radius": 0.6,
+    "trunk_height": 1.2,
+    "twist": 0.55,
+    "flute": 0.9,
+    "ribs": 7,
+    "hollow": 0.7,
+    "through": 1,
+    "lean": 0.06,
+    "lean_az": 0.6,
+    "grow_az": 2.2,
+    "asym": 0.25,
+    "limbs": 5,
+    "browse": 1.0,
+    "dead": 1,
+    "burrs": 9
+   },
+   "hero": {
+    "file": "olive_01_patriarch_hero.glb",
+    "bytes": 1738576,
+    "height": 6.886,
+    "radius": 4.449,
+    "trunkRadius": 0.6,
+    "trunkHeight": 1.2,
+    "crownLow": 1.196,
+    "stems": 1,
+    "trianglesWood": 14666,
+    "trianglesLeaves": 4214,
+    "triangles": 18880,
+    "vertices": 19046,
+    "sprays": 2107,
+    "cards": 2107,
+    "lod": 0,
+    "clumps": 13,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_01_patriarch_mid.glb",
+    "bytes": 560800,
+    "height": 6.956,
+    "radius": 4.269,
+    "trunkRadius": 0.6,
+    "trunkHeight": 1.2,
+    "crownLow": 1.425,
+    "stems": 1,
+    "trianglesWood": 2678,
+    "trianglesLeaves": 2030,
+    "triangles": 4708,
+    "vertices": 5933,
+    "sprays": 1015,
+    "cards": 1015,
+    "lod": 1,
+    "clumps": 13,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_02_split",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.45,
+     1.0
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 10,
+    "clump_r": [
+     0.22,
+     0.34
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.2,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.27,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 23,
+    "age": 0.95,
+    "height": 6.1,
+    "crown_radius": 3.4,
+    "stems": 2,
+    "stem_spread": 0.3,
+    "trunk_radius": 0.42,
+    "trunk_height": 1.2,
+    "twist": -0.7,
+    "flute": 0.85,
+    "ribs": 5,
+    "hollow": 0.5,
+    "lean": 0.03,
+    "grow_az": 4.0,
+    "asym": 0.3,
+    "limbs": 3,
+    "browse": 0.95,
+    "burrs": 6
+   },
+   "hero": {
+    "file": "olive_02_split_hero.glb",
+    "bytes": 1253660,
+    "height": 6.511,
+    "radius": 4.732,
+    "trunkRadius": 0.672,
+    "trunkHeight": 1.2,
+    "crownLow": 1.117,
+    "stems": 2,
+    "trianglesWood": 9808,
+    "trianglesLeaves": 3174,
+    "triangles": 12982,
+    "vertices": 13710,
+    "sprays": 1587,
+    "cards": 1587,
+    "lod": 0,
+    "clumps": 11,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_02_split_mid.glb",
+    "bytes": 415928,
+    "height": 6.547,
+    "radius": 4.791,
+    "trunkRadius": 0.672,
+    "trunkHeight": 1.2,
+    "crownLow": 1.314,
+    "stems": 2,
+    "trianglesWood": 1752,
+    "trianglesLeaves": 1542,
+    "triangles": 3294,
+    "vertices": 4385,
+    "sprays": 771,
+    "cards": 771,
+    "lod": 1,
+    "clumps": 11,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_03_leaning",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.45,
+     1.05
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 9,
+    "clump_r": [
+     0.22,
+     0.34
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.2,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.27,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 37,
+    "age": 0.9,
+    "height": 5.7,
+    "crown_radius": 3.3,
+    "trunk_radius": 0.48,
+    "trunk_height": 1.2,
+    "twist": 0.9,
+    "flute": 0.85,
+    "ribs": 6,
+    "hollow": 0.6,
+    "lean": 0.3,
+    "lean_az": 1.1,
+    "grow_az": 1.1,
+    "asym": 0.55,
+    "limbs": 4,
+    "browse": 1.0,
+    "dead": 2,
+    "burrs": 7
+   },
+   "hero": {
+    "file": "olive_03_leaning_hero.glb",
+    "bytes": 1088056,
+    "height": 6.111,
+    "radius": 4.543,
+    "trunkRadius": 0.48,
+    "trunkHeight": 1.2,
+    "crownLow": 0.812,
+    "stems": 1,
+    "trianglesWood": 7184,
+    "trianglesLeaves": 3016,
+    "triangles": 10200,
+    "vertices": 11866,
+    "sprays": 1508,
+    "cards": 1508,
+    "lod": 0,
+    "clumps": 10,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_03_leaning_mid.glb",
+    "bytes": 369060,
+    "height": 6.197,
+    "radius": 4.58,
+    "trunkRadius": 0.48,
+    "trunkHeight": 1.2,
+    "crownLow": 1.136,
+    "stems": 1,
+    "trianglesWood": 1200,
+    "trianglesLeaves": 1464,
+    "triangles": 2664,
+    "vertices": 3865,
+    "sprays": 732,
+    "cards": 732,
+    "lod": 1,
+    "clumps": 10,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_04_hollow_shell",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.5,
+     1.1
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 8,
+    "clump_r": [
+     0.24,
+     0.36
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.18,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.3,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 41,
+    "age": 1.0,
+    "height": 5.1,
+    "crown_radius": 2.88,
+    "trunk_radius": 0.72,
+    "trunk_height": 1.0,
+    "twist": 0.35,
+    "flute": 1.0,
+    "ribs": 8,
+    "hollow": 0.8,
+    "through": 1,
+    "lean": 0.1,
+    "lean_az": 3.5,
+    "grow_az": 5.2,
+    "asym": 0.3,
+    "limbs": 4,
+    "browse": 1.0,
+    "dead": 1,
+    "burrs": 12
+   },
+   "hero": {
+    "file": "olive_04_hollow_shell_hero.glb",
+    "bytes": 1158604,
+    "height": 5.498,
+    "radius": 3.605,
+    "trunkRadius": 0.72,
+    "trunkHeight": 1.0,
+    "crownLow": 0.993,
+    "stems": 1,
+    "trianglesWood": 12070,
+    "trianglesLeaves": 2344,
+    "triangles": 14414,
+    "vertices": 12722,
+    "sprays": 1172,
+    "cards": 1172,
+    "lod": 0,
+    "clumps": 9,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_04_hollow_shell_mid.glb",
+    "bytes": 361092,
+    "height": 5.547,
+    "radius": 3.566,
+    "trunkRadius": 0.72,
+    "trunkHeight": 1.0,
+    "crownLow": 1.241,
+    "stems": 1,
+    "trianglesWood": 2376,
+    "trianglesLeaves": 1124,
+    "triangles": 3500,
+    "vertices": 3838,
+    "sprays": 562,
+    "cards": 562,
+    "lod": 1,
+    "clumps": 9,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_05_mature",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.35,
+     0.9
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 9,
+    "clump_r": [
+     0.22,
+     0.34
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.1,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.28,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 53,
+    "age": 0.6,
+    "height": 6.2,
+    "crown_radius": 3.04,
+    "trunk_radius": 0.29,
+    "trunk_height": 1.15,
+    "twist": 0.4,
+    "flute": 0.45,
+    "ribs": 5,
+    "hollow": 0.0,
+    "lean": 0.05,
+    "lean_az": 2.0,
+    "grow_az": 0.4,
+    "asym": 0.2,
+    "limbs": 4,
+    "browse": 0.95,
+    "burrs": 3
+   },
+   "hero": {
+    "file": "olive_05_mature_hero.glb",
+    "bytes": 1042104,
+    "height": 6.63,
+    "radius": 4.046,
+    "trunkRadius": 0.29,
+    "trunkHeight": 1.15,
+    "crownLow": 1.135,
+    "stems": 1,
+    "trianglesWood": 6900,
+    "trianglesLeaves": 2898,
+    "triangles": 9798,
+    "vertices": 11356,
+    "sprays": 1449,
+    "cards": 1449,
+    "lod": 0,
+    "clumps": 10,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_05_mature_mid.glb",
+    "bytes": 327956,
+    "height": 6.663,
+    "radius": 4.016,
+    "trunkRadius": 0.29,
+    "trunkHeight": 1.15,
+    "crownLow": 1.54,
+    "stems": 1,
+    "trianglesWood": 936,
+    "trianglesLeaves": 1376,
+    "triangles": 2312,
+    "vertices": 3401,
+    "sprays": 688,
+    "cards": 688,
+    "lod": 1,
+    "clumps": 10,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_06_three_stems",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.85,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.3,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.35,
+     0.95
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 9,
+    "clump_r": [
+     0.22,
+     0.34
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.1,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.25,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     3,
+     6
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 2,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 67,
+    "age": 0.7,
+    "height": 5.8,
+    "crown_radius": 3.04,
+    "stems": 3,
+    "stem_spread": 0.3,
+    "trunk_radius": 0.2,
+    "trunk_height": 1.0,
+    "twist": 0.5,
+    "flute": 0.45,
+    "ribs": 4,
+    "lean": 0.0,
+    "grow_az": 3.0,
+    "asym": 0.3,
+    "limbs": 2,
+    "browse": 0.85,
+    "suckers": 6,
+    "burrs": 3
+   },
+   "hero": {
+    "file": "olive_06_three_stems_hero.glb",
+    "bytes": 1139840,
+    "height": 6.255,
+    "radius": 4.021,
+    "trunkRadius": 0.32,
+    "trunkHeight": 1.0,
+    "crownLow": 0.269,
+    "stems": 3,
+    "trianglesWood": 9224,
+    "trianglesLeaves": 2804,
+    "triangles": 12028,
+    "vertices": 12476,
+    "sprays": 1402,
+    "cards": 1402,
+    "lod": 0,
+    "clumps": 11,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_06_three_stems_mid.glb",
+    "bytes": 360696,
+    "height": 6.323,
+    "radius": 3.993,
+    "trunkRadius": 0.32,
+    "trunkHeight": 1.0,
+    "crownLow": 0.269,
+    "stems": 3,
+    "trianglesWood": 1548,
+    "trianglesLeaves": 1344,
+    "triangles": 2892,
+    "vertices": 3789,
+    "sprays": 672,
+    "cards": 672,
+    "lod": 1,
+    "clumps": 11,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_07_young",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.3,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.4,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.3,
+     0.8
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 6,
+    "clump_r": [
+     0.28,
+     0.42
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.1,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.24,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     2,
+     3
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 1,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 71,
+    "age": 0.25,
+    "height": 4.3,
+    "crown_radius": 1.9,
+    "trunk_radius": 0.085,
+    "trunk_height": 0.8,
+    "twist": 0.2,
+    "flute": 0.15,
+    "ribs": 4,
+    "levels": 3,
+    "lean": 0.1,
+    "lean_az": 5.0,
+    "grow_az": 5.0,
+    "asym": 0.25,
+    "limbs": 4,
+    "browse": 0.6,
+    "burrs": 0,
+    "droop": 0.15,
+    "twig_share": 0.35
+   },
+   "hero": {
+    "file": "olive_07_young_hero.glb",
+    "bytes": 340024,
+    "height": 4.758,
+    "radius": 2.399,
+    "trunkRadius": 0.085,
+    "trunkHeight": 0.8,
+    "crownLow": 0.853,
+    "stems": 1,
+    "trianglesWood": 3486,
+    "trianglesLeaves": 658,
+    "triangles": 4144,
+    "vertices": 3710,
+    "sprays": 329,
+    "cards": 329,
+    "lod": 0,
+    "clumps": 7,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_07_young_mid.glb",
+    "bytes": 103960,
+    "height": 4.831,
+    "radius": 2.345,
+    "trunkRadius": 0.085,
+    "trunkHeight": 0.8,
+    "crownLow": 0.931,
+    "stems": 1,
+    "trianglesWood": 600,
+    "trianglesLeaves": 330,
+    "triangles": 930,
+    "vertices": 1066,
+    "sprays": 165,
+    "cards": 165,
+    "lod": 1,
+    "clumps": 7,
+    "spotsLost": 0
+   }
+  },
+  {
+   "name": "olive_08_margin_bush",
+   "params": {
+    "env_n": [
+     2.3,
+     2.8
+    ],
+    "mass_flat": 0.75,
+    "mass_r": [
+     0.26,
+     0.48
+    ],
+    "mass_head": [
+     0.42,
+     0.58
+    ],
+    "core": 0.76,
+    "mass_normal": 0.12,
+    "hollow_thin": 0.3,
+    "bay": 0.66,
+    "bay_depth": 0.5,
+    "shell": 0.15,
+    "edge": 0.5,
+    "stray": 2,
+    "ragged": 0.42,
+    "hang": 0.9,
+    "shoots": 0.3,
+    "fine": 0.18,
+    "shade_floor": 0.42,
+    "skirt": 0.45,
+    "attract": 0.38,
+    "shell_depth": 0.3,
+    "under": 0.12,
+    "card_size": [
+     0.66,
+     1.0
+    ],
+    "lobes": 1.35,
+    "limb_angle": [
+     0.3,
+     0.8
+    ],
+    "head_el": [
+     64,
+     86
+    ],
+    "mid_weight": 1.5,
+    "lying2": 0.55,
+    "lying2_top": 0.6,
+    "card_cover": 0.5,
+    "clumps": 5,
+    "clump_r": [
+     0.3,
+     0.44
+    ],
+    "clump_flat": 0.62,
+    "clump_gap": 1.1,
+    "head_r": 1.2,
+    "head_gap": 0.85,
+    "crown_base": 0.1,
+    "crown_mid": 0.42,
+    "low_ring": 0.8,
+    "cap": -0.4,
+    "under_keep": 0.3,
+    "inner_keep": 0.55,
+    "clump_normal": 0.3,
+    "fin_share": 0.6,
+    "fan": [
+     2,
+     5
+    ],
+    "limb_bend": 0.06,
+    "clump_subs": [
+     1,
+     2
+    ],
+    "sub_r": [
+     0.45,
+     0.7
+    ],
+    "sub_off": [
+     0.45,
+     0.75
+    ],
+    "inner": 0,
+    "inner_r": [
+     0.6,
+     0.85
+    ],
+    "wood_shade": [
+     0.6,
+     0.56,
+     0.52
+    ],
+    "depth_var": 0.0,
+    "limb_flute": 0.12,
+    "shoulders": [
+     0.45,
+     0.85
+    ],
+    "mid_card": 1.22,
+    "mid_fin": 0.15,
+    "seed": 83,
+    "age": 0.15,
+    "height": 3.1,
+    "crown_radius": 1.7,
+    "stems": 2,
+    "stem_spread": 0.3,
+    "trunk_radius": 0.055,
+    "trunk_height": 0.6,
+    "twist": 0.1,
+    "flute": 0.1,
+    "ribs": 3,
+    "levels": 3,
+    "lean": 0.05,
+    "grow_az": 1.0,
+    "asym": 0.4,
+    "limbs": 3,
+    "browse": 0.25,
+    "burrs": 0,
+    "droop": 0.15
+   },
+   "hero": {
+    "file": "olive_08_margin_bush_hero.glb",
+    "bytes": 388044,
+    "height": 3.576,
+    "radius": 2.562,
+    "trunkRadius": 0.088,
+    "trunkHeight": 0.6,
+    "crownLow": 0.142,
+    "stems": 2,
+    "trianglesWood": 4284,
+    "trianglesLeaves": 668,
+    "triangles": 4952,
+    "vertices": 4260,
+    "sprays": 334,
+    "cards": 334,
+    "lod": 0,
+    "clumps": 5,
+    "spotsLost": 0
+   },
+   "mid": {
+    "file": "olive_08_margin_bush_mid.glb",
+    "bytes": 110136,
+    "height": 3.509,
+    "radius": 2.634,
+    "trunkRadius": 0.088,
+    "trunkHeight": 0.6,
+    "crownLow": 0.242,
+    "stems": 2,
+    "trianglesWood": 738,
+    "trianglesLeaves": 330,
+    "triangles": 1068,
+    "vertices": 1135,
+    "sprays": 165,
+    "cards": 165,
+    "lod": 1,
+    "clumps": 5,
+    "spotsLost": 0
+   }
+  }
+ ]
+}

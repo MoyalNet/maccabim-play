@@ -1,0 +1,20 @@
+{
+  "north": 32,
+  "south": 31.7,
+  "west": 34.9,
+  "east": 35.3,
+  "rows": 1081,
+  "cols": 1441,
+  "arcsecPerSample": 1,
+  "metresPerSampleNS": 30.801,
+  "metresPerSampleEW": 26.291,
+  "minElevation": 19,
+  "maxElevation": 1017,
+  "rowOrder": "north-to-south",
+  "colOrder": "west-to-east",
+  "source": "Copernicus DEM GLO-30 (30 m, DSM), tiles Copernicus_DSM_COG_10_N31_00_E034_00_DEM and Copernicus_DSM_COG_10_N31_00_E035_00_DEM, ESA/Copernicus; DOI 10.5270/ESA-c5d3d65",
+  "licence": "Copernicus DEM GLO-30: free licence for the general public (ESA / EU Copernicus), see https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM . Mandatory attribution notice for adapted/modified data (below). Full licence PDF not read; redistribution terms in a distributed game not confirmed.",
+  "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+  "unitsPerMetre": 10,
+  "processing": "Surface-model bumps and pits narrower than about 200 m in every direction removed; 3x3 de-quantisation blend. See pipeline/world/build-terrain.mjs."
+}

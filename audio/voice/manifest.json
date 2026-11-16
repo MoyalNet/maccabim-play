@@ -1,0 +1,50 @@
+{
+  "note": "Written by pipeline/audio/voice_manifest.mjs, read by src/audio/voice.ts. Source, voices and date: CREDITS.md.",
+  "lines": {
+    "A01": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A01.mp3",
+      "cues": "modiin/he/A01.cues.json",
+      "duration": 4.4,
+      "lufs": -14.3,
+      "truePeak": -0.8
+    },
+    "A02": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A02.mp3",
+      "cues": "modiin/he/A02.cues.json",
+      "duration": 7.44,
+      "lufs": -15.1,
+      "truePeak": -0.8
+    },
+    "A05": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A05.mp3",
+      "cues": "modiin/he/A05.cues.json",
+      "duration": 3.6,
+      "lufs": -17.2,
+      "truePeak": -1.5
+    },
+    "A15": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A15.mp3",
+      "cues": "modiin/he/A15.cues.json",
+      "duration": 6,
+      "lufs": -14.1,
+      "truePeak": -0.8
+    },
+    "A20": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A20.mp3",
+      "cues": "modiin/he/A20.cues.json",
+      "duration": 7.28,
+      "lufs": -15.4,
+      "truePeak": -0.6
+    }
+  }
+}

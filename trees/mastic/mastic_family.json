@@ -1,0 +1,427 @@
+{
+ "species": "mastic",
+ "latin": "Pistacia lentiscus",
+ "generator": "pipeline/trees/evergreen_gen.py",
+ "textures": {
+  "bark": "mastic_bark_color.jpg",
+  "barkNormal": "mastic_bark_normal.jpg",
+  "sprays": "mastic_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.4,
+  "leafyCells": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "thinCells": [
+   6,
+   7
+  ],
+  "denseCells": [
+   0,
+   2,
+   4
+  ],
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "mastic_01_dome",
+   "params": {
+    "species": "mastic",
+    "seed": 201,
+    "age": 0.5,
+    "height": 2.5,
+    "crown_radius": 1.9,
+    "stems": 8,
+    "stem_spread": 0.55,
+    "stool": 0.3,
+    "trunk_radius": 0.045,
+    "trunk_height": 0.45,
+    "flute": 0.05,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.0,
+    "grow_az": 2.0,
+    "asym": 0.2,
+    "limbs": 2,
+    "limb_angle": [
+     0.3,
+     0.8
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.2,
+    "skirt": 0.45,
+    "bark_tint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   },
+   "hero": {
+    "file": "mastic_01_dome_hero.glb",
+    "bytes": 997844,
+    "height": 2.324,
+    "radius": 2.031,
+    "trunkRadius": 0.342,
+    "trunkHeight": 0.45,
+    "crownLow": 0.02,
+    "stems": 8,
+    "trianglesWood": 3904,
+    "trianglesLeaves": 3656,
+    "triangles": 7560,
+    "vertices": 10652,
+    "sprays": 1828,
+    "lod": 0,
+    "species": "mastic",
+    "barkTint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   },
+   "mid": {
+    "file": "mastic_01_dome_mid.glb",
+    "bytes": 332092,
+    "height": 2.46,
+    "radius": 2.123,
+    "trunkRadius": 0.342,
+    "trunkHeight": 0.45,
+    "crownLow": 0.02,
+    "stems": 8,
+    "trianglesWood": 1058,
+    "trianglesLeaves": 1320,
+    "triangles": 2378,
+    "vertices": 3474,
+    "sprays": 660,
+    "lod": 1,
+    "species": "mastic",
+    "barkTint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   }
+  },
+  {
+   "name": "mastic_02_mound",
+   "params": {
+    "species": "mastic",
+    "seed": 211,
+    "age": 0.45,
+    "height": 1.4,
+    "crown_radius": 1.9,
+    "stems": 9,
+    "stem_spread": 0.85,
+    "stool": 0.35,
+    "trunk_radius": 0.035,
+    "trunk_height": 0.3,
+    "flute": 0.0,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.0,
+    "grow_az": 4.0,
+    "asym": 0.25,
+    "limbs": 2,
+    "limb_angle": [
+     0.5,
+     1.1
+    ],
+    "levels": 3,
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.25,
+    "skirt": 0.55
+   },
+   "hero": {
+    "file": "mastic_02_mound_hero.glb",
+    "bytes": 764520,
+    "height": 1.454,
+    "radius": 2.12,
+    "trunkRadius": 0.366,
+    "trunkHeight": 0.3,
+    "crownLow": 0.02,
+    "stems": 9,
+    "trianglesWood": 2660,
+    "trianglesLeaves": 2874,
+    "triangles": 5534,
+    "vertices": 8138,
+    "sprays": 1437,
+    "lod": 0,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "mid": {
+    "file": "mastic_02_mound_mid.glb",
+    "bytes": 254456,
+    "height": 1.572,
+    "radius": 2.201,
+    "trunkRadius": 0.366,
+    "trunkHeight": 0.3,
+    "crownLow": 0.02,
+    "stems": 9,
+    "trianglesWood": 778,
+    "trianglesLeaves": 1016,
+    "triangles": 1794,
+    "vertices": 2649,
+    "sprays": 508,
+    "lod": 1,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "name": "mastic_03_small",
+   "params": {
+    "species": "mastic",
+    "seed": 223,
+    "age": 0.25,
+    "height": 1.1,
+    "crown_radius": 0.8,
+    "stems": 5,
+    "stem_spread": 0.6,
+    "stool": 0.12,
+    "trunk_radius": 0.02,
+    "trunk_height": 0.25,
+    "flute": 0.0,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.0,
+    "grow_az": 1.0,
+    "asym": 0.3,
+    "limbs": 2,
+    "limb_angle": [
+     0.4,
+     0.9
+    ],
+    "levels": 3,
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.3,
+    "skirt": 0.45
+   },
+   "hero": {
+    "file": "mastic_03_small_hero.glb",
+    "bytes": 198868,
+    "height": 1.002,
+    "radius": 0.922,
+    "trunkRadius": 0.119,
+    "trunkHeight": 0.25,
+    "crownLow": 0.021,
+    "stems": 5,
+    "trianglesWood": 1018,
+    "trianglesLeaves": 628,
+    "triangles": 1646,
+    "vertices": 2107,
+    "sprays": 314,
+    "lod": 0,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "mid": {
+    "file": "mastic_03_small_mid.glb",
+    "bytes": 76224,
+    "height": 0.971,
+    "radius": 0.995,
+    "trunkRadius": 0.119,
+    "trunkHeight": 0.25,
+    "crownLow": 0.021,
+    "stems": 5,
+    "trianglesWood": 420,
+    "trianglesLeaves": 222,
+    "triangles": 642,
+    "vertices": 779,
+    "sprays": 111,
+    "lod": 1,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "name": "mastic_04_lopsided",
+   "params": {
+    "species": "mastic",
+    "seed": 233,
+    "age": 0.55,
+    "height": 2.1,
+    "crown_radius": 1.7,
+    "stems": 7,
+    "stem_spread": 0.5,
+    "stool": 0.25,
+    "trunk_radius": 0.04,
+    "trunk_height": 0.4,
+    "flute": 0.05,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.15,
+    "lean_az": 0.8,
+    "grow_az": 0.8,
+    "asym": 0.65,
+    "limbs": 2,
+    "limb_angle": [
+     0.35,
+     0.85
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.15,
+    "skirt": 0.45
+   },
+   "hero": {
+    "file": "mastic_04_lopsided_hero.glb",
+    "bytes": 686180,
+    "height": 2.132,
+    "radius": 2.12,
+    "trunkRadius": 0.275,
+    "trunkHeight": 0.4,
+    "crownLow": 0.021,
+    "stems": 7,
+    "trianglesWood": 2850,
+    "trianglesLeaves": 2440,
+    "triangles": 5290,
+    "vertices": 7330,
+    "sprays": 1220,
+    "lod": 0,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "mid": {
+    "file": "mastic_04_lopsided_mid.glb",
+    "bytes": 243108,
+    "height": 2.063,
+    "radius": 2.221,
+    "trunkRadius": 0.275,
+    "trunkHeight": 0.4,
+    "crownLow": 0.021,
+    "stems": 7,
+    "trianglesWood": 770,
+    "trianglesLeaves": 960,
+    "triangles": 1730,
+    "vertices": 2531,
+    "sprays": 480,
+    "lod": 1,
+    "species": "mastic",
+    "barkTint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "name": "mastic_05_tree",
+   "params": {
+    "species": "mastic",
+    "seed": 241,
+    "age": 0.8,
+    "height": 3.6,
+    "crown_radius": 2.2,
+    "stems": 3,
+    "stem_spread": 0.3,
+    "stool": 0.15,
+    "trunk_radius": 0.09,
+    "trunk_height": 0.8,
+    "flute": 0.25,
+    "ribs": 4,
+    "twist": 0.25,
+    "lean": 0.08,
+    "lean_az": 2.5,
+    "grow_az": 2.5,
+    "asym": 0.3,
+    "limbs": 3,
+    "limb_angle": [
+     0.45,
+     1.0
+    ],
+    "browse": 0.9,
+    "burrs": 2,
+    "density": 1.15,
+    "skirt": 0.35,
+    "bark_tint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   },
+   "hero": {
+    "file": "mastic_05_tree_hero.glb",
+    "bytes": 1180000,
+    "height": 3.429,
+    "radius": 2.677,
+    "trunkRadius": 0.218,
+    "trunkHeight": 0.8,
+    "crownLow": 0.85,
+    "stems": 3,
+    "trianglesWood": 3732,
+    "trianglesLeaves": 4524,
+    "triangles": 8256,
+    "vertices": 12577,
+    "sprays": 2262,
+    "lod": 0,
+    "species": "mastic",
+    "barkTint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   },
+   "mid": {
+    "file": "mastic_05_tree_mid.glb",
+    "bytes": 374012,
+    "height": 3.483,
+    "radius": 2.68,
+    "trunkRadius": 0.218,
+    "trunkHeight": 0.8,
+    "crownLow": 0.795,
+    "stems": 3,
+    "trianglesWood": 844,
+    "trianglesLeaves": 1602,
+    "triangles": 2446,
+    "vertices": 3890,
+    "sprays": 801,
+    "lod": 1,
+    "species": "mastic",
+    "barkTint": [
+     0.95,
+     0.9,
+     0.86
+    ]
+   }
+  }
+ ]
+}

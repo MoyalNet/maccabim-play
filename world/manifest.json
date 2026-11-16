@@ -1,0 +1,638 @@
+{
+ "ground": [
+  {
+   "id": "limestone",
+   "sourceId": "Rock043L",
+   "bytes": 1033707,
+   "use": "weathered grey limestone and dolomite bedrock (hills)",
+   "credit": {
+    "source": "ambientCG",
+    "url": "https://ambientcg.com/a/Rock043L",
+    "licence": "CC0 1.0 Universal",
+    "author": "ambientCG (no per-asset author exposed by the site or API)"
+   }
+  },
+  {
+   "id": "chalk",
+   "sourceId": "rock_boulder_dry",
+   "bytes": 724412,
+   "use": "pale chalk with a hard crust (foothills)",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/rock_boulder_dry",
+    "licence": "CC0 1.0 Universal",
+    "author": "Dimitrios Savva (Photography); Rico Cilliers (Processing)"
+   }
+  },
+  {
+   "id": "terraRossa",
+   "sourceId": "red_mud_stones",
+   "bytes": 1185728,
+   "use": "red-brown soil in pockets (hills)",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/red_mud_stones",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rob Tuytel (All)"
+   }
+  },
+  {
+   "id": "paleSoil",
+   "sourceId": "rocks_ground_05",
+   "bytes": 1271042,
+   "use": "pale greyish stony soil (foothills, plain)",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/rocks_ground_05",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rob Tuytel (All)"
+   }
+  },
+  {
+   "id": "dryGrass",
+   "sourceId": "withered_grass",
+   "bytes": 1555865,
+   "use": "dry grass and litter over soil",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/withered_grass",
+    "licence": "CC0 1.0 Universal",
+    "author": "Charlotte Baglioni (All)"
+   }
+  },
+  {
+   "id": "scree",
+   "sourceId": "rocks_ground_01",
+   "bytes": 1288661,
+   "use": "loose angular stones below ledges",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/rocks_ground_01",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rob Tuytel (All)"
+   }
+  },
+  {
+   "id": "streamBed",
+   "sourceId": "pebble_ground_01",
+   "bytes": 943368,
+   "use": "washed gravel and cobbles in dry stream beds",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/pebble_ground_01",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rob Tuytel (All)"
+   }
+  }
+ ],
+ "bark": [
+  {
+   "id": "oliveBark",
+   "sourceId": "bark_willow",
+   "bytes": 272680,
+   "use": "deeply furrowed grey bark for olive trunks",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/bark_willow",
+    "licence": "CC0 1.0 Universal",
+    "author": "Dario Barresi (Processing); Dimitrios Savva (Photography)"
+   }
+  },
+  {
+   "id": "oakBark",
+   "sourceId": "Bark001",
+   "bytes": 343220,
+   "use": "oak and mastic trunks and branches",
+   "credit": {
+    "source": "ambientCG",
+    "url": "https://ambientcg.com/a/Bark001",
+    "licence": "CC0 1.0 Universal",
+    "author": "ambientCG (no per-asset author exposed by the site or API)"
+   }
+  }
+ ],
+ "leaves": [
+  {
+   "id": "grassHeads",
+   "sourceId": "Foliage002",
+   "bytes": 154411,
+   "use": "dry seed-head stalks in the grass tufts",
+   "credit": {
+    "source": "ambientCG",
+    "url": "https://ambientcg.com/a/Foliage002",
+    "licence": "CC0 1.0 Universal",
+    "author": "ambientCG (no per-asset author exposed by the site or API)"
+   }
+  }
+ ],
+ "skies": [
+  {
+   "id": "blueHour",
+   "sourceId": "aarfontein_dawn_2_4k",
+   "bytes": 1252460,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/aarfontein_dawn_2",
+    "licence": "CC0 1.0 Universal",
+    "author": "Dario Barresi (All)"
+   },
+   "keyTime": "blueHour",
+   "skyLuminance": 1.4572007147582346,
+   "sunAzimuth": 0.6350680461846556,
+   "sunElevation": 0.052155346788111734
+  },
+  {
+   "id": "sunrise",
+   "sourceId": "aarfontein_sunrise_4k",
+   "bytes": 1402441,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/aarfontein_sunrise",
+    "licence": "CC0 1.0 Universal",
+    "author": "Dario Barresi (All)"
+   },
+   "keyTime": "sunrise",
+   "skyLuminance": 1.0842563830022272,
+   "sunAzimuth": 0.6289321230331129,
+   "sunElevation": 0.003067961575771383
+  },
+  {
+   "id": "midMorning",
+   "sourceId": "rosendal_mountain_midmorning_4k",
+   "bytes": 1483254,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/rosendal_mountain_midmorning",
+    "licence": "CC0 1.0 Universal",
+    "author": "Dimitrios Savva (Photography); Jarod Guest (Processing)"
+   },
+   "keyTime": "midMorning",
+   "skyLuminance": 0.3831619421196953,
+   "sunAzimuth": 0.6289321230331129,
+   "sunElevation": 0.6902913545485387
+  }
+ ],
+ "rocks": [
+  {
+   "id": "limestoneRocks",
+   "sourceId": "coast_rocks_05",
+   "bytes": 1260663,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/coast_rocks_05",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rob Tuytel (All)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 3599
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 450
+      }
+     ],
+     "size": {
+      "x": 4.039,
+      "y": 1.331,
+      "z": 3.748
+     }
+    }
+   ]
+  },
+  {
+   "id": "boulderA",
+   "sourceId": "namaqualand_boulder_02",
+   "bytes": 1028200,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_02",
+    "licence": "CC0 1.0 Universal",
+    "author": "Greg Zaal (Photography); Rico Cilliers (modeling)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 2399
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 320
+      }
+     ],
+     "size": {
+      "x": 2.532,
+      "y": 0.883,
+      "z": 1.234
+     }
+    }
+   ]
+  },
+  {
+   "id": "boulderB",
+   "sourceId": "namaqualand_boulder_03",
+   "bytes": 799808,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_03",
+    "licence": "CC0 1.0 Universal",
+    "author": "Jenelle van Heerden (modeling); Dario Barresi (Photography)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 2399
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 320
+      }
+     ],
+     "size": {
+      "x": 2.407,
+      "y": 1.473,
+      "z": 3.065
+     }
+    }
+   ]
+  },
+  {
+   "id": "boulderC",
+   "sourceId": "namaqualand_boulder_05",
+   "bytes": 962691,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_05",
+    "licence": "CC0 1.0 Universal",
+    "author": "Jenelle van Heerden (modeling); Dario Barresi (Photography)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 1999
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 279
+      }
+     ],
+     "size": {
+      "x": 1.364,
+      "y": 0.538,
+      "z": 0.748
+     }
+    }
+   ]
+  },
+  {
+   "id": "rocksSmall",
+   "sourceId": "namaqualand_boulders_01",
+   "bytes": 942424,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/namaqualand_boulders_01",
+    "licence": "CC0 1.0 Universal",
+    "author": "Greg Zaal (Photography); Jenelle van Heerden (modeling)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 700
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 110
+      }
+     ],
+     "size": {
+      "x": 0.363,
+      "y": 0.252,
+      "z": 0.551
+     }
+    },
+    {
+     "lods": [
+      {
+       "mesh": "v1_lod0",
+       "triangles": 699
+      },
+      {
+       "mesh": "v1_lod1",
+       "triangles": 110
+      }
+     ],
+     "size": {
+      "x": 0.339,
+      "y": 0.209,
+      "z": 0.587
+     }
+    }
+   ]
+  },
+  {
+   "id": "stones",
+   "sourceId": "namaqualand_stones_01",
+   "bytes": 866067,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/namaqualand_stones_01",
+    "licence": "CC0 1.0 Universal",
+    "author": "Greg Zaal (Photography); Jenelle van Heerden (modeling)"
+   },
+   "variants": [
+    {
+     "lods": [
+      {
+       "mesh": "v0_lod0",
+       "triangles": 219
+      },
+      {
+       "mesh": "v0_lod1",
+       "triangles": 47
+      }
+     ],
+     "size": {
+      "x": 0.076,
+      "y": 0.038,
+      "z": 0.063
+     }
+    },
+    {
+     "lods": [
+      {
+       "mesh": "v1_lod0",
+       "triangles": 220
+      },
+      {
+       "mesh": "v1_lod1",
+       "triangles": 48
+      }
+     ],
+     "size": {
+      "x": 0.151,
+      "y": 0.084,
+      "z": 0.081
+     }
+    },
+    {
+     "lods": [
+      {
+       "mesh": "v2_lod0",
+       "triangles": 220
+      },
+      {
+       "mesh": "v2_lod1",
+       "triangles": 47
+      }
+     ],
+     "size": {
+      "x": 0.104,
+      "y": 0.057,
+      "z": 0.098
+     }
+    },
+    {
+     "lods": [
+      {
+       "mesh": "v3_lod0",
+       "triangles": 220
+      },
+      {
+       "mesh": "v3_lod1",
+       "triangles": 46
+      }
+     ],
+     "size": {
+      "x": 0.115,
+      "y": 0.037,
+      "z": 0.082
+     }
+    },
+    {
+     "lods": [
+      {
+       "mesh": "v4_lod0",
+       "triangles": 220
+      },
+      {
+       "mesh": "v4_lod1",
+       "triangles": 48
+      }
+     ],
+     "size": {
+      "x": 0.111,
+      "y": 0.077,
+      "z": 0.112
+     }
+    }
+   ]
+  }
+ ],
+ "plants": [
+  {
+   "id": "shrub",
+   "sourceId": "wild_rooibos_bush",
+   "bytes": 1743893,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/wild_rooibos_bush",
+    "licence": "CC0 1.0 Universal",
+    "author": "James Ray Cock (modeling); Jenelle van Heerden (photography)"
+   },
+   "variants": [
+    {
+     "mesh": "v0",
+     "triangles": 13151,
+     "materials": [
+      "wild_rooibos_bush_twigs",
+      "wild_rooibos_bush_leaves",
+      "wild_rooibos_bush"
+     ],
+     "size": {
+      "x": 0.697,
+      "y": 0.539,
+      "z": 0.843
+     }
+    },
+    {
+     "mesh": "v1",
+     "triangles": 6287,
+     "materials": [
+      "wild_rooibos_bush_twigs",
+      "wild_rooibos_bush_leaves",
+      "wild_rooibos_bush"
+     ],
+     "size": {
+      "x": 0.524,
+      "y": 0.541,
+      "z": 0.475
+     }
+    },
+    {
+     "mesh": "v2",
+     "triangles": 4204,
+     "materials": [
+      "wild_rooibos_bush_twigs",
+      "wild_rooibos_bush_leaves",
+      "wild_rooibos_bush"
+     ],
+     "size": {
+      "x": 0.425,
+      "y": 0.448,
+      "z": 0.472
+     }
+    },
+    {
+     "mesh": "v3",
+     "triangles": 2684,
+     "materials": [
+      "wild_rooibos_bush_twigs",
+      "wild_rooibos_bush_leaves",
+      "wild_rooibos_bush"
+     ],
+     "size": {
+      "x": 0.327,
+      "y": 0.42,
+      "z": 0.384
+     }
+    },
+    {
+     "mesh": "v4",
+     "triangles": 1193,
+     "materials": [
+      "wild_rooibos_bush_twigs",
+      "wild_rooibos_bush_leaves",
+      "wild_rooibos_bush"
+     ],
+     "size": {
+      "x": 0.278,
+      "y": 0.306,
+      "z": 0.166
+     }
+    }
+   ]
+  },
+  {
+   "id": "grass",
+   "sourceId": "grass_medium_02",
+   "bytes": 345020,
+   "use": "",
+   "credit": {
+    "source": "Poly Haven",
+    "url": "https://polyhaven.com/a/grass_medium_02",
+    "licence": "CC0 1.0 Universal",
+    "author": "Rico Cilliers (All)"
+   },
+   "variants": [
+    {
+     "mesh": "v0",
+     "triangles": 714,
+     "materials": [
+      "grass_medium_02"
+     ],
+     "size": {
+      "x": 0.119,
+      "y": 0.157,
+      "z": 0.12
+     }
+    },
+    {
+     "mesh": "v1",
+     "triangles": 1760,
+     "materials": [
+      "grass_medium_02"
+     ],
+     "size": {
+      "x": 0.179,
+      "y": 0.18,
+      "z": 0.199
+     }
+    },
+    {
+     "mesh": "v2",
+     "triangles": 1215,
+     "materials": [
+      "grass_medium_02"
+     ],
+     "size": {
+      "x": 0.262,
+      "y": 0.232,
+      "z": 0.25
+     }
+    },
+    {
+     "mesh": "v3",
+     "triangles": 2489,
+     "materials": [
+      "grass_medium_02"
+     ],
+     "size": {
+      "x": 0.317,
+      "y": 0.26,
+      "z": 0.362
+     }
+    },
+    {
+     "mesh": "v4",
+     "triangles": 1664,
+     "materials": [
+      "grass_medium_02"
+     ],
+     "size": {
+      "x": 0.356,
+      "y": 0.403,
+      "z": 0.433
+     }
+    }
+   ]
+  }
+ ],
+ "totalBytes": 21978114,
+ "foliage": [
+  {
+   "id": "olive",
+   "sourceId": "olive-branches-atlas.jpg",
+   "bytes": 555954,
+   "use": "olive branch-tip cards",
+   "columns": 3,
+   "rows": 2,
+   "credit": {
+    "source": "AI-generated image (Google Gemini), not a scan",
+    "licence": "Terms of use for distribution not yet confirmed; see assets-src/landscape/generated/README.md"
+   }
+  },
+  {
+   "id": "oak",
+   "sourceId": "oak-calliprinos-branches-atlas.jpg",
+   "bytes": 562145,
+   "use": "evergreen oak branch-tip cards; also used, darkened, for mastic",
+   "columns": 3,
+   "rows": 2,
+   "credit": {
+    "source": "AI-generated image (Google Gemini), not a scan",
+    "licence": "Terms of use for distribution not yet confirmed; see assets-src/landscape/generated/README.md"
+   }
+  }
+ ]
+}

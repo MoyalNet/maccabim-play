@@ -1,0 +1,614 @@
+{
+ "file": "village_props.glb",
+ "generator": "pipeline/props/build_props.py",
+ "axes": "three.js: +Y up, front of each prop faces +Z; origin on the ground at the foot centre; metres",
+ "vertexColours": "COLOR_0 carries hue, soot, dirt and wear: keep material.vertexColors = true",
+ "props": [
+  {
+   "name": "tabun",
+   "label": "השלמה דרמטית",
+   "basis": "Tabun: BE 3.4 \"not verified\" for the period; VL 1.4 tabun in yard and rooms at the Rishon LeZion farm (coast, c.300 BCE, agreed) -> hills 160s inference. Lid and ash heap: design.",
+   "place": "yard, one per house that bakes (10 of 14 today); 1.5-3 m from a wall, downwind of the door",
+   "lod0": 1010,
+   "lod1": 302,
+   "lod1Distance": 12,
+   "size": [
+    1.839,
+    0.806,
+    1.121
+   ],
+   "footRadius": 1.246,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "tabun_shelter",
+   "label": "השלמה דרמטית",
+   "basis": "Rubble shelter with lintel and brush-and-earth roof after the photo \"Village oven\" (1898-1914 only). No period source.",
+   "place": "over the tabun in about half the yards that have one; back against the yard wall",
+   "lod0": 10966,
+   "lod1": 1967,
+   "lod1Distance": 25,
+   "size": [
+    2.371,
+    1.668,
+    2.22
+   ],
+   "footRadius": 1.712,
+   "materials": [
+    "stone",
+    "clay",
+    "wood",
+    "bark"
+   ]
+  },
+  {
+   "name": "jar_store_a",
+   "label": "השלמה דרמטית",
+   "basis": "Storage jars: agreed in quantity at the El'ad farm 15 km from Modi'in, made locally (VL 3, Nagorsky). SHAPE not checked against any typology (none read): tall bag form is design.",
+   "place": "inside rooms along the back wall (3-6), 1-3 beside doors, bedded 6-10 cm into the earth or leaning",
+   "lod0": 1604,
+   "lod1": 400,
+   "lod1Distance": 12,
+   "size": [
+    0.46,
+    0.696,
+    0.393
+   ],
+   "footRadius": 0.303,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "jar_store_b",
+   "label": "השלמה דרמטית",
+   "basis": "As jar_store_a; wider ovoid variant, shape is design.",
+   "place": "with jar_store_a; mix 2:1",
+   "lod0": 1504,
+   "lod1": 376,
+   "lod1Distance": 12,
+   "size": [
+    0.484,
+    0.584,
+    0.478
+   ],
+   "footRadius": 0.341,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "jar_broken",
+   "label": "השלמה דרמטית",
+   "basis": "Broken jar (lower half) and sherds: design, for refuse heaps and yard corners.",
+   "place": "refuse heaps, beside a wall; 0-1 per yard",
+   "lod0": 624,
+   "size": [
+    0.642,
+    0.407,
+    0.597
+   ],
+   "footRadius": 0.575,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "jug_water",
+   "label": "היסק",
+   "basis": "VL 1.4 water drawing: method not read; dossier default \"clay jar and rope\", carried on shoulder or head (inference). Shape is design.",
+   "place": "at every cistern mouth (with rope), by doors; carried by women and girls",
+   "lod0": 1440,
+   "lod1": 432,
+   "lod1Distance": 12,
+   "size": [
+    0.786,
+    0.328,
+    0.44
+   ],
+   "footRadius": 0.712,
+   "materials": [
+    "clay",
+    "coil"
+   ]
+  },
+  {
+   "name": "cookpot_a",
+   "label": "השלמה דרמטית",
+   "basis": "Cooking: VL 1.4 women cook in the yard (inference); RE 7 table and work vessels at Maresha (Idumean). Shape is design; soot is the point.",
+   "place": "beside the tabun or a hearth of three stones; in the family room",
+   "lod0": 1004,
+   "lod1": 350,
+   "lod1Distance": 12,
+   "size": [
+    0.322,
+    0.232,
+    0.3
+   ],
+   "footRadius": 0.22,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "cookpot_b",
+   "label": "השלמה דרמטית",
+   "basis": "Smaller cooking pot; as cookpot_a.",
+   "place": "with cookpot_a",
+   "lod0": 1004,
+   "size": [
+    0.232,
+    0.168,
+    0.215
+   ],
+   "footRadius": 0.158,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "bowl",
+   "label": "השלמה דרמטית",
+   "basis": "Open bowl; shape is design.",
+   "place": "by the quern, on mats, by the oven",
+   "lod0": 520,
+   "size": [
+    0.286,
+    0.077,
+    0.28
+   ],
+   "footRadius": 0.2,
+   "materials": [
+    "clay"
+   ]
+  },
+  {
+   "name": "quern_saddle",
+   "label": "היסק",
+   "basis": "VL 1.4: grinding tools at the Rishon farm, type not given; rotary quern DISPUTED for the date -> dossier default saddle quern on the yard floor, woman kneeling. Never a rotary quern.",
+   "place": "yard floor near the room door, one per house; a bowl and basket beside it",
+   "lod0": 822,
+   "lod1": 164,
+   "lod1Distance": 12,
+   "size": [
+    0.898,
+    0.199,
+    0.491
+   ],
+   "footRadius": 0.63,
+   "materials": [
+    "stone",
+    "clay"
+   ]
+  },
+  {
+   "name": "loom",
+   "label": "השלמה דרמטית",
+   "basis": "Loom weights by dozens at Kh. Asad (Galilee, later 2nd c.) and Maresha (VL 1.4, agreed there). Warp-weighted loom \"strong inference, not verified for Judea 160\"; loom in the yard listed as dramatization (VL 1.6). Weight shape is design.",
+   "place": "leaning against a sunny yard wall or a room wall by the door, 2-4 in the village",
+   "lod0": 3608,
+   "lod1": 715,
+   "lod1Distance": 18,
+   "size": [
+    1.9,
+    2.27,
+    0.631
+   ],
+   "footRadius": 1.112,
+   "materials": [
+    "wood",
+    "cloth",
+    "warp",
+    "clay",
+    "coil"
+   ]
+  },
+  {
+   "name": "spindle",
+   "label": "היסק",
+   "basis": "Spindle with stone whorl: 8 basalt whorls 8-18 g at the Rishon farm (VL 1.4, agreed on the coast); hills 160 inference.",
+   "place": "in a basket by the loom, or in a woman's hand",
+   "lod0": 228,
+   "size": [
+    0.32,
+    0.06,
+    0.06
+   ],
+   "footRadius": 0.163,
+   "materials": [
+    "wood",
+    "clay",
+    "cloth"
+   ]
+  },
+  {
+   "name": "mat_reed",
+   "label": "השלמה דרמטית",
+   "basis": "Reed mat: dramatization in the village kit (BE 11.1 has the yard and room only by inference).",
+   "place": "room floors (1-2), yard by the door; drying produce on roofs",
+   "lod0": 552,
+   "size": [
+    1.1,
+    0.021,
+    1.85
+   ],
+   "footRadius": 1.076,
+   "materials": [
+    "reedmat"
+   ]
+  },
+  {
+   "name": "mat_palm",
+   "label": "השלמה דרמטית",
+   "basis": "Plaited palm mat: design.",
+   "place": "family room, yard where women sit",
+   "lod0": 424,
+   "size": [
+    1.5,
+    0.019,
+    1.0
+   ],
+   "footRadius": 0.901,
+   "materials": [
+    "plait"
+   ]
+  },
+  {
+   "name": "mat_rolled",
+   "label": "השלמה דרמטית",
+   "basis": "Rolled mat: design.",
+   "place": "against a room wall, on roofs",
+   "lod0": 280,
+   "size": [
+    1.1,
+    0.213,
+    0.218
+   ],
+   "footRadius": 0.561,
+   "materials": [
+    "reedmat",
+    "coil"
+   ]
+  },
+  {
+   "name": "basket_round",
+   "label": "השלמה דרמטית",
+   "basis": "Coiled basket: design (no basketry read).",
+   "place": "yards, rooms, threshing floor; 2-4 per yard",
+   "lod0": 616,
+   "lod1": 184,
+   "lod1Distance": 12,
+   "size": [
+    0.484,
+    0.232,
+    0.485
+   ],
+   "footRadius": 0.345,
+   "materials": [
+    "coil"
+   ]
+  },
+  {
+   "name": "basket_tall",
+   "label": "השלמה דרמטית",
+   "basis": "Tall coiled basket: design.",
+   "place": "by doors, by the oven (dung/brush), at the press",
+   "lod0": 952,
+   "lod1": 284,
+   "lod1Distance": 12,
+   "size": [
+    0.417,
+    0.396,
+    0.351
+   ],
+   "footRadius": 0.273,
+   "materials": [
+    "coil"
+   ]
+  },
+  {
+   "name": "tray_winnow",
+   "label": "היסק",
+   "basis": "Winnowing: \"fork / shovel / basket to the wind\" (VL 3, secondary [Thr], less doubt). Flat coiled tray is design.",
+   "place": "threshing floor (2-3), yards",
+   "lod0": 448,
+   "size": [
+    0.74,
+    0.072,
+    0.741
+   ],
+   "footRadius": 0.526,
+   "materials": [
+    "coil"
+   ]
+  },
+  {
+   "name": "load_grain",
+   "label": "השלמה דרמטית",
+   "basis": "Heap of grain to sit in a basket or tray, or on the threshing floor.",
+   "place": "inside basket_round / tray_winnow; scale 0.9-1.2",
+   "lod0": 90,
+   "size": [
+    0.383,
+    0.064,
+    0.383
+   ],
+   "footRadius": 0.276,
+   "materials": [
+    "stone"
+   ]
+  },
+  {
+   "name": "ard",
+   "label": "היסק",
+   "basis": "Ploughing with oxen (Ben Sira 38:25-26, VL 3). Light wooden ard with iron share: \"not verified; inference\" (VL 3). Form is design.",
+   "place": "leaning on a yard wall or lying by the field edge; 2-3 in the village",
+   "lod0": 348,
+   "lod1": 120,
+   "lod1Distance": 12,
+   "size": [
+    0.26,
+    0.985,
+    3.163
+   ],
+   "footRadius": 2.559,
+   "materials": [
+    "wood",
+    "iron"
+   ]
+  },
+  {
+   "name": "yoke",
+   "label": "היסק",
+   "basis": "Yoke for a pair of oxen: follows from ploughing with oxen (VL 3). Form is design.",
+   "place": "with the ard, hung on a peg or lying by it",
+   "lod0": 300,
+   "size": [
+    1.324,
+    0.118,
+    0.368
+   ],
+   "footRadius": 0.736,
+   "materials": [
+    "wood",
+    "coil"
+   ]
+  },
+  {
+   "name": "fork_winnow",
+   "label": "היסק",
+   "basis": "Winnowing fork: VL 3 (\"fork / shovel / basket\", secondary; Caesarea floor threshed with forks). Form is design.",
+   "place": "threshing floor (2-4), leaning on walls",
+   "lod0": 386,
+   "size": [
+    1.991,
+    0.081,
+    0.33
+   ],
+   "footRadius": 1.054,
+   "materials": [
+    "wood",
+    "coil"
+   ]
+  },
+  {
+   "name": "shovel_winnow",
+   "label": "היסק",
+   "basis": "Winnowing shovel: VL 3 as the fork. Form is design.",
+   "place": "threshing floor, beside grain heaps",
+   "lod0": 128,
+   "size": [
+    1.71,
+    0.054,
+    0.26
+   ],
+   "footRadius": 0.87,
+   "materials": [
+    "wood"
+   ]
+  },
+  {
+   "name": "sledge_threshing",
+   "label": "השלמה דרמטית",
+   "basis": "Threshing sledge (morag): biblical, wood (2 Sam 24:22, not opened); VL 3 lists \"threshing with a sledge\" as dramatization. Stone teeth underneath: design.",
+   "place": "threshing floor only, 1; or leaning on the wall nearest the floor",
+   "lod0": 760,
+   "lod1": 215,
+   "lod1Distance": 12,
+   "size": [
+    1.61,
+    0.414,
+    0.64
+   ],
+   "footRadius": 0.917,
+   "materials": [
+    "wood",
+    "stone",
+    "coil"
+   ]
+  },
+  {
+   "name": "sickle",
+   "label": "מוסכם",
+   "basis": "Iron sickle and mattock in the \"frozen\" farm storeroom at Kh. Asad (later 2nd c., Galilee; VL 3). Form is design.",
+   "place": "on a wall peg, in a basket, in reapers' hands",
+   "lod0": 108,
+   "size": [
+    0.393,
+    0.032,
+    0.331
+   ],
+   "footRadius": 0.411,
+   "materials": [
+    "iron",
+    "wood"
+   ]
+  },
+  {
+   "name": "mattock",
+   "label": "מוסכם",
+   "basis": "As the sickle (Kh. Asad). Form is design.",
+   "place": "leaning by the yard gate, on roofs during repair",
+   "lod0": 84,
+   "size": [
+    0.88,
+    0.063,
+    0.242
+   ],
+   "footRadius": 0.502,
+   "materials": [
+    "iron",
+    "wood"
+   ]
+  },
+  {
+   "name": "waterskin",
+   "label": "השלמה דרמטית",
+   "basis": "Goatskin water bag: not in any dossier (VL default for water is jar and rope). Pure dramatization.",
+   "place": "hung at a door or on a shepherd; sparingly (0-3 in the village)",
+   "lod0": 500,
+   "size": [
+    0.645,
+    0.259,
+    0.353
+   ],
+   "footRadius": 0.37,
+   "materials": [
+    "clay",
+    "coil"
+   ]
+  },
+  {
+   "name": "cistern_mouth",
+   "label": "מוסכם",
+   "basis": "Rock-cut cistern mouth about 1x1 m with thick pale plaster (BE 3.1 Horvat Ashun, agreed; BE 11.1 small cistern ~1 m mouth). Kerb blocks and cover slab: inference/design.",
+   "place": "replaces cisternMouth() in the yards that have one (40 %, always the large and the family house)",
+   "lod0": 1140,
+   "lod1": 342,
+   "lod1Distance": 12,
+   "size": [
+    1.662,
+    1.606,
+    1.57
+   ],
+   "footRadius": 1.333,
+   "materials": [
+    "stone",
+    "plaster"
+   ]
+  },
+  {
+   "name": "roller_roof",
+   "label": "היסק",
+   "basis": "Stone roof roller re-compacting the earth roof after the first rains: Nazareth Village reconstruction (BE 3.3, inference, \"no tiles\").",
+   "place": "on one roof in three (replaces roller()); never in a yard",
+   "lod0": 112,
+   "size": [
+    0.624,
+    0.324,
+    0.317
+   ],
+   "footRadius": 0.35,
+   "materials": [
+    "stone"
+   ]
+  },
+  {
+   "name": "ladder_a",
+   "label": "השלמה דרמטית",
+   "basis": "Pole ladder with lashed rungs (2.6 m): design; outside stone stairs are the dossier's access (inference).",
+   "place": "to roofs without a stair, 1 in 3 houses",
+   "lod0": 1024,
+   "lod1": 408,
+   "lod1Distance": 12,
+   "size": [
+    0.527,
+    2.602,
+    0.12
+   ],
+   "footRadius": 0.274,
+   "materials": [
+    "wood",
+    "coil"
+   ]
+  },
+  {
+   "name": "ladder_b",
+   "label": "השלמה דרמטית",
+   "basis": "Longer pole ladder (3.4 m): design.",
+   "place": "against the tallest rooms; olive harvest",
+   "lod0": 1480,
+   "lod1": 592,
+   "lod1Distance": 12,
+   "size": [
+    0.525,
+    3.401,
+    0.122
+   ],
+   "footRadius": 0.279,
+   "materials": [
+    "wood",
+    "coil"
+   ]
+  },
+  {
+   "name": "brush_stack",
+   "label": "השלמה דרמטית",
+   "basis": "Cut thorn and maquis brush for the oven: design (tabun itself unverified).",
+   "place": "beside each tabun, on some roofs",
+   "lod0": 19140,
+   "lod1": 5741,
+   "lod1Distance": 18,
+   "size": [
+    2.435,
+    1.186,
+    1.414
+   ],
+   "footRadius": 1.438,
+   "materials": [
+    "bark"
+   ]
+  },
+  {
+   "name": "log_stack",
+   "label": "השלמה דרמטית",
+   "basis": "Split olive and oak wood: design.",
+   "place": "against a room wall, 1 per 2 houses",
+   "lod0": 648,
+   "lod1": 194,
+   "lod1Distance": 12,
+   "size": [
+    0.707,
+    0.415,
+    0.777
+   ],
+   "footRadius": 0.532,
+   "materials": [
+    "bark",
+    "wood"
+   ]
+  },
+  {
+   "name": "trough_stone",
+   "label": "השלמה דרמטית",
+   "basis": "Stone trough: animals kept at home \"not verified\" (BE 3.4); plastered rock-cut vats agreed at Ashun (BE 3.1). Trough is design.",
+   "place": "in the pen corner (replaces trough()), by the cistern for the flock",
+   "lod0": 1200,
+   "lod1": 240,
+   "lod1Distance": 12,
+   "size": [
+    1.028,
+    0.438,
+    0.534
+   ],
+   "footRadius": 0.582,
+   "materials": [
+    "stone"
+   ]
+  }
+ ],
+ "bytes": 5551088,
+ "trianglesLod0": 55054
+}
