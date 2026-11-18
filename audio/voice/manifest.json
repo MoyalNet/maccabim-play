@@ -19,6 +19,24 @@
       "lufs": -15.1,
       "truePeak": -0.8
     },
+    "A03": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A03.mp3",
+      "cues": "modiin/he/A03.cues.json",
+      "duration": 9.04,
+      "lufs": -16.1,
+      "truePeak": -0.6
+    },
+    "A04": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A04.mp3",
+      "cues": "modiin/he/A04.cues.json",
+      "duration": 12.96,
+      "lufs": -16.6,
+      "truePeak": -0.6
+    },
     "A05": {
       "scene": "modiin",
       "lang": "he",
@@ -27,6 +45,87 @@
       "duration": 3.6,
       "lufs": -17.2,
       "truePeak": -1.5
+    },
+    "A06": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A06.mp3",
+      "cues": "modiin/he/A06.cues.json",
+      "duration": 11.2,
+      "lufs": -17,
+      "truePeak": -1.1
+    },
+    "A07": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A07.mp3",
+      "cues": "modiin/he/A07.cues.json",
+      "duration": 6.64,
+      "lufs": -15.7,
+      "truePeak": -0.9
+    },
+    "A08": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A08.mp3",
+      "cues": "modiin/he/A08.cues.json",
+      "duration": 3.6,
+      "lufs": -16.7,
+      "truePeak": -2.2
+    },
+    "A09": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A09.mp3",
+      "cues": "modiin/he/A09.cues.json",
+      "duration": 3.44,
+      "lufs": -16.2,
+      "truePeak": -1.1
+    },
+    "A10": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A10.mp3",
+      "cues": "modiin/he/A10.cues.json",
+      "duration": 4.16,
+      "lufs": -15.7,
+      "truePeak": -0.9
+    },
+    "A11": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A11.mp3",
+      "cues": "modiin/he/A11.cues.json",
+      "duration": 4.8,
+      "lufs": -16,
+      "truePeak": -0.9
+    },
+    "A12": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A12.mp3",
+      "cues": "modiin/he/A12.cues.json",
+      "duration": 5.04,
+      "lufs": -16.7,
+      "truePeak": -1.8
+    },
+    "A13": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A13.mp3",
+      "cues": "modiin/he/A13.cues.json",
+      "duration": 6.8,
+      "lufs": -16.9,
+      "truePeak": -0.6
+    },
+    "A14": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A14.mp3",
+      "cues": "modiin/he/A14.cues.json",
+      "duration": 7.36,
+      "lufs": -16.9,
+      "truePeak": -1.3
     },
     "A15": {
       "scene": "modiin",
@@ -37,14 +136,140 @@
       "lufs": -14.1,
       "truePeak": -0.8
     },
+    "A16": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A16.mp3",
+      "cues": "modiin/he/A16.cues.json",
+      "duration": 5.6,
+      "lufs": -17.2,
+      "truePeak": -1.5
+    },
+    "A17": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A17.mp3",
+      "cues": "modiin/he/A17.cues.json",
+      "duration": 4.08,
+      "lufs": -14.2,
+      "truePeak": -1.2
+    },
+    "A18": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A18.mp3",
+      "cues": "modiin/he/A18.cues.json",
+      "duration": 3.44,
+      "lufs": -17.2,
+      "truePeak": -1.7
+    },
+    "A19": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A19.mp3",
+      "cues": "modiin/he/A19.cues.json",
+      "duration": 5.92,
+      "lufs": -15.3,
+      "truePeak": -1.2
+    },
     "A20": {
       "scene": "modiin",
       "lang": "he",
       "file": "modiin/he/A20.mp3",
       "cues": "modiin/he/A20.cues.json",
+      "duration": 6.96,
+      "lufs": -15,
+      "truePeak": -0.7
+    },
+    "A21": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A21.mp3",
+      "cues": "modiin/he/A21.cues.json",
+      "duration": 2.4,
+      "lufs": -16.7,
+      "truePeak": -2
+    },
+    "A22": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A22.mp3",
+      "cues": "modiin/he/A22.cues.json",
+      "duration": 5.44,
+      "lufs": -15.7,
+      "truePeak": -0.7
+    },
+    "A23": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A23.mp3",
+      "cues": "modiin/he/A23.cues.json",
+      "duration": 8.96,
+      "lufs": -17.4,
+      "truePeak": -2.2
+    },
+    "A24": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A24.mp3",
+      "cues": "modiin/he/A24.cues.json",
+      "duration": 5.6,
+      "lufs": -15.9,
+      "truePeak": -0.7
+    },
+    "A25": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A25.mp3",
+      "cues": "modiin/he/A25.cues.json",
       "duration": 7.28,
-      "lufs": -15.4,
+      "lufs": -16.7,
       "truePeak": -0.6
+    },
+    "A26": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A26.mp3",
+      "cues": "modiin/he/A26.cues.json",
+      "duration": 3.68,
+      "lufs": -14,
+      "truePeak": -0.6
+    },
+    "A27": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A27.mp3",
+      "cues": "modiin/he/A27.cues.json",
+      "duration": 4.88,
+      "lufs": -12.5,
+      "truePeak": -0.6
+    },
+    "A28": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A28.mp3",
+      "cues": "modiin/he/A28.cues.json",
+      "duration": 1.52,
+      "lufs": -14.3,
+      "truePeak": -0.9
+    },
+    "A29": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A29.mp3",
+      "cues": "modiin/he/A29.cues.json",
+      "duration": 5.84,
+      "lufs": -14.1,
+      "truePeak": -0.3
+    },
+    "A30": {
+      "scene": "modiin",
+      "lang": "he",
+      "file": "modiin/he/A30.mp3",
+      "cues": "modiin/he/A30.cues.json",
+      "duration": 8.4,
+      "lufs": -16.1,
+      "truePeak": -0.7
     }
   }
 }
