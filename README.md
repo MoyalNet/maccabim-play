@@ -1,7 +1,7 @@
 # המכבים · The Maccabees: playtest build
 
-עבודה בתהליך. גרסת ניסוי מ-19 בנובמבר 2026 (מקור: קומיט 9121d93), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
-Work in progress: a playtest build of 19 Nov 2026 (source commit 9121d93), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
+עבודה בתהליך. גרסת ניסוי מ-19 בנובמבר 2026, עדכון שני (מקור: קומיט 8e84a8e), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
+Work in progress: a playtest build of 19 Nov 2026, second update (source commit 8e84a8e), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
 
 ## Credits · תודות (as in the game's credits screen)
 - Verses, Hebrew: 1 Maccabees in A. Kahana's translation (כהנא), from Hebrew Wikisource. / ספר המקבים א: תרגום א. כהנא, מתוך ויקיטקסט.
