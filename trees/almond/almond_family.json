@@ -1,0 +1,181 @@
+{
+ "species": "almond",
+ "latin": "Prunus dulcis",
+ "generator": "pipeline/trees/trees_r1_gen.py",
+ "season": "kislev",
+ "textures": {
+  "bark": "../oak/oak_bark_color.jpg",
+  "barkNormal": "../oak/oak_bark_normal.jpg",
+  "sprays": "../orchard/orchard_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.6,
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "almond_01_plot",
+   "params": {
+    "species": "almond",
+    "seed": 701,
+    "age": 0.6,
+    "height": 4.3,
+    "crown_radius": 2.3,
+    "trunk_radius": 0.13,
+    "trunk_height": 0.9,
+    "flute": 0.2,
+    "ribs": 4,
+    "twist": 0.15,
+    "lean": 0.06,
+    "lean_az": 1.0,
+    "grow_az": 2.0,
+    "asym": 0.2,
+    "limbs": 4,
+    "limb_angle": [
+     0.35,
+     0.8
+    ],
+    "browse": 0.0,
+    "burrs": 1,
+    "density": 1.0,
+    "skirt": 0.1,
+    "bark_tint": [
+     0.6,
+     0.5,
+     0.46
+    ]
+   },
+   "hero": {
+    "file": "almond_01_plot_hero.glb",
+    "bytes": 395180,
+    "height": 4.334,
+    "radius": 2.906,
+    "trunkRadius": 0.13,
+    "trunkHeight": 0.9,
+    "crownLow": 0.042,
+    "stems": 1,
+    "trianglesWood": 3186,
+    "trianglesLeaves": 708,
+    "triangles": 3894,
+    "vertices": 4416,
+    "sprays": 354,
+    "lod": 0,
+    "species": "almond",
+    "barkTint": [
+     0.6,
+     0.5,
+     0.46
+    ]
+   },
+   "mid": {
+    "file": "almond_01_plot_mid.glb",
+    "bytes": 126292,
+    "height": 4.351,
+    "radius": 2.947,
+    "trunkRadius": 0.13,
+    "trunkHeight": 0.9,
+    "crownLow": 0.027,
+    "stems": 1,
+    "trianglesWood": 642,
+    "trianglesLeaves": 402,
+    "triangles": 1044,
+    "vertices": 1314,
+    "sprays": 201,
+    "lod": 1,
+    "species": "almond",
+    "barkTint": [
+     0.6,
+     0.5,
+     0.46
+    ]
+   }
+  },
+  {
+   "name": "almond_02_young",
+   "params": {
+    "species": "almond",
+    "seed": 719,
+    "age": 0.3,
+    "height": 3.0,
+    "crown_radius": 1.5,
+    "trunk_radius": 0.07,
+    "trunk_height": 0.7,
+    "flute": 0.05,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.08,
+    "lean_az": 4.0,
+    "grow_az": 4.5,
+    "asym": 0.25,
+    "limbs": 3,
+    "limb_angle": [
+     0.3,
+     0.75
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.0,
+    "skirt": 0.1,
+    "bark_tint": [
+     0.62,
+     0.5,
+     0.45
+    ]
+   },
+   "hero": {
+    "file": "almond_02_young_hero.glb",
+    "bytes": 207208,
+    "height": 3.315,
+    "radius": 1.701,
+    "trunkRadius": 0.07,
+    "trunkHeight": 0.7,
+    "crownLow": 0.092,
+    "stems": 1,
+    "trianglesWood": 1704,
+    "trianglesLeaves": 332,
+    "triangles": 2036,
+    "vertices": 2304,
+    "sprays": 166,
+    "lod": 0,
+    "species": "almond",
+    "barkTint": [
+     0.62,
+     0.5,
+     0.45
+    ]
+   },
+   "mid": {
+    "file": "almond_02_young_mid.glb",
+    "bytes": 68864,
+    "height": 3.399,
+    "radius": 1.712,
+    "trunkRadius": 0.07,
+    "trunkHeight": 0.7,
+    "crownLow": 0.098,
+    "stems": 1,
+    "trianglesWood": 392,
+    "trianglesLeaves": 188,
+    "triangles": 580,
+    "vertices": 702,
+    "sprays": 94,
+    "lod": 1,
+    "species": "almond",
+    "barkTint": [
+     0.62,
+     0.5,
+     0.45
+    ]
+   }
+  }
+ ]
+}

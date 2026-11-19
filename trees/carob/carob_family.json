@@ -1,0 +1,184 @@
+{
+ "species": "carob",
+ "latin": "Ceratonia siliqua",
+ "generator": "pipeline/trees/trees_r1_gen.py",
+ "season": "kislev",
+ "textures": {
+  "bark": "../oak/oak_bark_color.jpg",
+  "barkNormal": "../oak/oak_bark_normal.jpg",
+  "sprays": "carob_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.6,
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "carob_01_broad",
+   "params": {
+    "species": "carob",
+    "seed": 401,
+    "age": 0.85,
+    "height": 6.2,
+    "crown_radius": 4.2,
+    "trunk_radius": 0.4,
+    "trunk_height": 1.2,
+    "flute": 0.55,
+    "ribs": 6,
+    "twist": 0.3,
+    "hollow": 0.2,
+    "lean": 0.1,
+    "lean_az": 0.4,
+    "grow_az": 0.9,
+    "asym": 0.3,
+    "limbs": 5,
+    "limb_angle": [
+     0.6,
+     1.3
+    ],
+    "browse": 1.4,
+    "burrs": 5,
+    "density": 1.2,
+    "skirt": 0.5,
+    "bark_tint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   },
+   "hero": {
+    "file": "carob_01_broad_hero.glb",
+    "bytes": 2085616,
+    "height": 6.332,
+    "radius": 4.588,
+    "trunkRadius": 0.4,
+    "trunkHeight": 1.2,
+    "crownLow": 1.263,
+    "stems": 1,
+    "trianglesWood": 9748,
+    "trianglesLeaves": 7274,
+    "triangles": 17022,
+    "vertices": 22383,
+    "sprays": 3637,
+    "lod": 0,
+    "species": "carob",
+    "barkTint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   },
+   "mid": {
+    "file": "carob_01_broad_mid.glb",
+    "bytes": 769756,
+    "height": 6.443,
+    "radius": 4.9,
+    "trunkRadius": 0.4,
+    "trunkHeight": 1.2,
+    "crownLow": 1.15,
+    "stems": 1,
+    "trianglesWood": 3318,
+    "trianglesLeaves": 2656,
+    "triangles": 5974,
+    "vertices": 8258,
+    "sprays": 1328,
+    "lod": 1,
+    "species": "carob",
+    "barkTint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   }
+  },
+  {
+   "name": "carob_02_low",
+   "params": {
+    "species": "carob",
+    "seed": 419,
+    "age": 0.5,
+    "height": 4.0,
+    "crown_radius": 3.0,
+    "stems": 3,
+    "stem_spread": 0.35,
+    "stool": 0.3,
+    "trunk_radius": 0.15,
+    "trunk_height": 0.8,
+    "flute": 0.3,
+    "ribs": 4,
+    "twist": 0.2,
+    "lean": 0.05,
+    "grow_az": 3.3,
+    "asym": 0.35,
+    "limbs": 3,
+    "limb_angle": [
+     0.5,
+     1.2
+    ],
+    "browse": 0.7,
+    "burrs": 2,
+    "density": 1.2,
+    "skirt": 0.55,
+    "bark_tint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   },
+   "hero": {
+    "file": "carob_02_low_hero.glb",
+    "bytes": 976224,
+    "height": 4.178,
+    "radius": 3.32,
+    "trunkRadius": 0.362,
+    "trunkHeight": 0.8,
+    "crownLow": 0.587,
+    "stems": 3,
+    "trianglesWood": 4340,
+    "trianglesLeaves": 3478,
+    "triangles": 7818,
+    "vertices": 10427,
+    "sprays": 1739,
+    "lod": 0,
+    "species": "carob",
+    "barkTint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   },
+   "mid": {
+    "file": "carob_02_low_mid.glb",
+    "bytes": 320156,
+    "height": 4.448,
+    "radius": 3.372,
+    "trunkRadius": 0.362,
+    "trunkHeight": 0.8,
+    "crownLow": 0.449,
+    "stems": 3,
+    "trianglesWood": 1172,
+    "trianglesLeaves": 1232,
+    "triangles": 2404,
+    "vertices": 3354,
+    "sprays": 616,
+    "lod": 1,
+    "species": "carob",
+    "barkTint": [
+     0.9,
+     0.78,
+     0.68
+    ]
+   }
+  }
+ ]
+}

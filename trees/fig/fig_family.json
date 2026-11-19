@@ -1,0 +1,186 @@
+{
+ "species": "fig",
+ "latin": "Ficus carica",
+ "generator": "pipeline/trees/trees_r1_gen.py",
+ "season": "kislev",
+ "textures": {
+  "bark": "../mastic/mastic_bark_color.jpg",
+  "barkNormal": "../mastic/mastic_bark_normal.jpg",
+  "sprays": "../orchard/orchard_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.6,
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "fig_01_spreading",
+   "params": {
+    "species": "fig",
+    "seed": 601,
+    "age": 0.6,
+    "height": 3.7,
+    "crown_radius": 2.9,
+    "stems": 3,
+    "stem_spread": 0.4,
+    "stool": 0.25,
+    "trunk_radius": 0.11,
+    "trunk_height": 0.7,
+    "flute": 0.1,
+    "ribs": 4,
+    "twist": 0.0,
+    "lean": 0.05,
+    "grow_az": 1.2,
+    "asym": 0.3,
+    "limbs": 3,
+    "limb_angle": [
+     0.6,
+     1.2
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 0.9,
+    "skirt": 0.2,
+    "bark_tint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   },
+   "hero": {
+    "file": "fig_01_spreading_hero.glb",
+    "bytes": 375860,
+    "height": 3.829,
+    "radius": 3.398,
+    "trunkRadius": 0.354,
+    "trunkHeight": 0.7,
+    "crownLow": 0.061,
+    "stems": 3,
+    "trianglesWood": 4380,
+    "trianglesLeaves": 338,
+    "triangles": 4718,
+    "vertices": 4257,
+    "sprays": 169,
+    "lod": 0,
+    "species": "fig",
+    "barkTint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   },
+   "mid": {
+    "file": "fig_01_spreading_mid.glb",
+    "bytes": 108488,
+    "height": 3.845,
+    "radius": 3.358,
+    "trunkRadius": 0.354,
+    "trunkHeight": 0.7,
+    "crownLow": 0.06,
+    "stems": 3,
+    "trianglesWood": 1072,
+    "trianglesLeaves": 178,
+    "triangles": 1250,
+    "vertices": 1162,
+    "sprays": 89,
+    "lod": 1,
+    "species": "fig",
+    "barkTint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   }
+  },
+  {
+   "name": "fig_02_small",
+   "params": {
+    "species": "fig",
+    "seed": 613,
+    "age": 0.35,
+    "height": 2.6,
+    "crown_radius": 1.9,
+    "stems": 2,
+    "stem_spread": 0.45,
+    "stool": 0.15,
+    "trunk_radius": 0.07,
+    "trunk_height": 0.5,
+    "flute": 0.05,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.08,
+    "lean_az": 3.0,
+    "grow_az": 3.0,
+    "asym": 0.4,
+    "limbs": 3,
+    "limb_angle": [
+     0.6,
+     1.2
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 0.9,
+    "skirt": 0.2,
+    "bark_tint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   },
+   "hero": {
+    "file": "fig_02_small_hero.glb",
+    "bytes": 279760,
+    "height": 2.822,
+    "radius": 2.173,
+    "trunkRadius": 0.21,
+    "trunkHeight": 0.5,
+    "crownLow": 0.419,
+    "stems": 2,
+    "trianglesWood": 2836,
+    "trianglesLeaves": 300,
+    "triangles": 3136,
+    "vertices": 3163,
+    "sprays": 150,
+    "lod": 0,
+    "species": "fig",
+    "barkTint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   },
+   "mid": {
+    "file": "fig_02_small_mid.glb",
+    "bytes": 82276,
+    "height": 2.905,
+    "radius": 2.301,
+    "trunkRadius": 0.21,
+    "trunkHeight": 0.5,
+    "crownLow": 0.207,
+    "stems": 2,
+    "trianglesWood": 602,
+    "trianglesLeaves": 188,
+    "triangles": 790,
+    "vertices": 858,
+    "sprays": 94,
+    "lod": 1,
+    "species": "fig",
+    "barkTint": [
+     1.15,
+     1.13,
+     1.1
+    ]
+   }
+  }
+ ]
+}

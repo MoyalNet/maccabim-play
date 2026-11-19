@@ -1,7 +1,7 @@
 # המכבים · The Maccabees: playtest build
 
-עבודה בתהליך. גרסת ניסוי מ-19 בנובמבר 2026, עדכון שני (מקור: קומיט 8e84a8e), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
-Work in progress: a playtest build of 19 Nov 2026, second update (source commit 8e84a8e), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
+עבודה בתהליך. גרסת ניסוי מ-19 בנובמבר 2026, עדכון שלישי (מקור: קומיט 5f2ffac), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
+Work in progress: a playtest build of 19 Nov 2026, third update (source commit 5f2ffac), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
 
 ## Credits · תודות (as in the game's credits screen)
 - Verses, Hebrew: 1 Maccabees in A. Kahana's translation (כהנא), from Hebrew Wikisource. / ספר המקבים א: תרגום א. כהנא, מתוך ויקיטקסט.
@@ -12,6 +12,8 @@ Work in progress: a playtest build of 19 Nov 2026, second update (source commit 
 - Characters: bodies by MakeHuman and MPFB (the MakeHuman community, CC0 assets). Walking and standing motion: the Universal Animation Library by Quaternius (CC0).
 - Combat motion: based on KayKit Character Animations 1.1 by Kay Lousberg (CC0), retargeted for the game. / תנועות קרב: מבוסס על KayKit Character Animations 1.1 של Kay Lousberg (CC0), מותאם למשחק.
 - Battle and camp sounds (module off by default): cut from the "Red Library" sound-effect items on the Internet Archive, which carry the line "CC0 1.0 Universal" on their pages; film-library recordings, a dramatization, not a record of the period. Sources: audio/battle/CREDITS.md.
+- Combat motion, also: some combat clips layer motion-capture recordings from Adobe Mixamo. / חלק מתנועות הקרב משלבות הקלטות תנועה מ-Mixamo של Adobe.
+- Map place names and stream courses: © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright).
 - Typeface: Bellefair, Copyright 2015 The Bellefair Project Authors (https://github.com/shinntype/bellefair), SIL Open Font License 1.1 (map/Bellefair-OFL.txt).
 - Engine: three.js, Copyright © 2010-2026 three.js authors, MIT License.
 - Voices: AI-generated speech, generated with ElevenLabs (elevenlabs.io); not recordings of actors. Other credits (animal and plant sounds, CC0 from Freesound): see audio/*/CREDITS.md.

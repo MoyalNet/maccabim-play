@@ -1,0 +1,265 @@
+{
+ "species": "terebinth",
+ "latin": "Pistacia palaestina",
+ "generator": "pipeline/trees/trees_r1_gen.py",
+ "season": "kislev",
+ "textures": {
+  "bark": "../oak/oak_bark_color.jpg",
+  "barkNormal": "../oak/oak_bark_normal.jpg",
+  "sprays": "terebinth_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.7,
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "terebinth_01_old",
+   "params": {
+    "species": "terebinth",
+    "seed": 311,
+    "age": 0.9,
+    "height": 6.4,
+    "crown_radius": 4.5,
+    "trunk_radius": 0.42,
+    "trunk_height": 1.4,
+    "flute": 0.4,
+    "ribs": 6,
+    "twist": 0.15,
+    "hollow": 0.2,
+    "lean": 0.05,
+    "lean_az": 1.0,
+    "grow_az": 2.4,
+    "asym": 0.2,
+    "limbs": 5,
+    "limb_angle": [
+     0.7,
+     1.35
+    ],
+    "browse": 1.3,
+    "burrs": 5,
+    "dead": 1,
+    "density": 1.0,
+    "skirt": 0.45,
+    "bark_tint": [
+     1.0,
+     0.95,
+     0.9
+    ]
+   },
+   "hero": {
+    "file": "terebinth_01_old_hero.glb",
+    "bytes": 1568760,
+    "height": 6.726,
+    "radius": 5.191,
+    "trunkRadius": 0.42,
+    "trunkHeight": 1.4,
+    "crownLow": 1.121,
+    "stems": 1,
+    "trianglesWood": 10344,
+    "trianglesLeaves": 4196,
+    "triangles": 14540,
+    "vertices": 17210,
+    "sprays": 2098,
+    "lod": 0,
+    "species": "terebinth",
+    "barkTint": [
+     1.0,
+     0.95,
+     0.9
+    ]
+   },
+   "mid": {
+    "file": "terebinth_01_old_mid.glb",
+    "bytes": 570908,
+    "height": 6.945,
+    "radius": 5.406,
+    "trunkRadius": 0.42,
+    "trunkHeight": 1.4,
+    "crownLow": 1.154,
+    "stems": 1,
+    "trianglesWood": 3414,
+    "trianglesLeaves": 1586,
+    "triangles": 5000,
+    "vertices": 6222,
+    "sprays": 793,
+    "lod": 1,
+    "species": "terebinth",
+    "barkTint": [
+     1.0,
+     0.95,
+     0.9
+    ]
+   }
+  },
+  {
+   "name": "terebinth_02_colour",
+   "params": {
+    "species": "terebinth_leafy",
+    "seed": 331,
+    "age": 0.6,
+    "height": 4.6,
+    "crown_radius": 2.9,
+    "stems": 2,
+    "stem_spread": 0.2,
+    "stool": 0.12,
+    "trunk_radius": 0.17,
+    "trunk_height": 1.0,
+    "flute": 0.2,
+    "ribs": 5,
+    "twist": 0.08,
+    "lean": 0.06,
+    "lean_az": 4.0,
+    "grow_az": 4.4,
+    "asym": 0.25,
+    "limbs": 3,
+    "limb_angle": [
+     0.5,
+     1.15
+    ],
+    "browse": 0.9,
+    "burrs": 2,
+    "density": 1.0,
+    "skirt": 0.5,
+    "bark_tint": [
+     0.95,
+     0.85,
+     0.8
+    ]
+   },
+   "hero": {
+    "file": "terebinth_02_colour_hero.glb",
+    "bytes": 663880,
+    "height": 4.995,
+    "radius": 3.616,
+    "trunkRadius": 0.332,
+    "trunkHeight": 1.0,
+    "crownLow": 0.765,
+    "stems": 2,
+    "trianglesWood": 3990,
+    "trianglesLeaves": 1880,
+    "triangles": 5870,
+    "vertices": 7227,
+    "sprays": 940,
+    "lod": 0,
+    "species": "terebinth_leafy",
+    "barkTint": [
+     0.95,
+     0.85,
+     0.8
+    ]
+   },
+   "mid": {
+    "file": "terebinth_02_colour_mid.glb",
+    "bytes": 211944,
+    "height": 4.984,
+    "radius": 3.655,
+    "trunkRadius": 0.332,
+    "trunkHeight": 1.0,
+    "crownLow": 0.74,
+    "stems": 2,
+    "trianglesWood": 958,
+    "trianglesLeaves": 738,
+    "triangles": 1696,
+    "vertices": 2223,
+    "sprays": 369,
+    "lod": 1,
+    "species": "terebinth_leafy",
+    "barkTint": [
+     0.95,
+     0.85,
+     0.8
+    ]
+   }
+  },
+  {
+   "name": "terebinth_03_shrub",
+   "params": {
+    "species": "terebinth_bare",
+    "seed": 347,
+    "age": 0.35,
+    "height": 2.9,
+    "crown_radius": 1.9,
+    "stems": 5,
+    "stem_spread": 0.45,
+    "stool": 0.3,
+    "trunk_radius": 0.05,
+    "trunk_height": 0.6,
+    "flute": 0.05,
+    "ribs": 3,
+    "twist": 0.0,
+    "lean": 0.0,
+    "grow_az": 1.5,
+    "asym": 0.3,
+    "limbs": 2,
+    "limb_angle": [
+     0.3,
+     0.8
+    ],
+    "browse": 0.0,
+    "burrs": 0,
+    "density": 1.0,
+    "skirt": 0.4,
+    "bark_tint": [
+     0.9,
+     0.8,
+     0.75
+    ]
+   },
+   "hero": {
+    "file": "terebinth_03_shrub_hero.glb",
+    "bytes": 372428,
+    "height": 3.106,
+    "radius": 2.511,
+    "trunkRadius": 0.34,
+    "trunkHeight": 0.6,
+    "crownLow": 0.02,
+    "stems": 5,
+    "trianglesWood": 2774,
+    "trianglesLeaves": 922,
+    "triangles": 3696,
+    "vertices": 4052,
+    "sprays": 461,
+    "lod": 0,
+    "species": "terebinth_bare",
+    "barkTint": [
+     0.9,
+     0.8,
+     0.75
+    ]
+   },
+   "mid": {
+    "file": "terebinth_03_shrub_mid.glb",
+    "bytes": 129324,
+    "height": 3.186,
+    "radius": 2.719,
+    "trunkRadius": 0.34,
+    "trunkHeight": 0.6,
+    "crownLow": 0.021,
+    "stems": 5,
+    "trianglesWood": 820,
+    "trianglesLeaves": 368,
+    "triangles": 1188,
+    "vertices": 1356,
+    "sprays": 184,
+    "lod": 1,
+    "species": "terebinth_bare",
+    "barkTint": [
+     0.9,
+     0.8,
+     0.75
+    ]
+   }
+  }
+ ]
+}

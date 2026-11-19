@@ -1,0 +1,106 @@
+{
+ "species": "sycamore",
+ "latin": "Ficus sycomorus",
+ "generator": "pipeline/trees/trees_r1_gen.py",
+ "season": "kislev",
+ "textures": {
+  "bark": "../mastic/mastic_bark_color.jpg",
+  "barkNormal": "../mastic/mastic_bark_normal.jpg",
+  "sprays": "sycamore_spray_atlas.png"
+ },
+ "atlas": {
+  "columns": 4,
+  "rows": 2,
+  "cellMetres": 0.8,
+  "alphaCutoff": 0.4
+ },
+ "attributes": {
+  "COLOR_0": "shade",
+  "_AWIND": "aWind",
+  "_ABRANCH": "aBranch",
+  "_ABRANCHPARENT": "aBranchParent",
+  "_ABRANCHAXIS": "aBranchAxis",
+  "_ACARD": "aCard"
+ },
+ "trees": [
+  {
+   "name": "sycamore_01_broad",
+   "params": {
+    "species": "sycamore",
+    "seed": 503,
+    "age": 0.9,
+    "height": 9.4,
+    "crown_radius": 6.2,
+    "trunk_radius": 0.62,
+    "trunk_height": 1.7,
+    "flute": 0.5,
+    "ribs": 7,
+    "twist": 0.1,
+    "hollow": 0.1,
+    "lean": 0.04,
+    "lean_az": 2.0,
+    "grow_az": 5.0,
+    "asym": 0.2,
+    "limbs": 5,
+    "limb_angle": [
+     0.8,
+     1.4
+    ],
+    "browse": 2.0,
+    "burrs": 6,
+    "density": 1.0,
+    "skirt": 0.3,
+    "flat": 0.85,
+    "bark_tint": [
+     1.25,
+     1.15,
+     0.9
+    ]
+   },
+   "hero": {
+    "file": "sycamore_01_broad_hero.glb",
+    "bytes": 2088952,
+    "height": 9.709,
+    "radius": 7.061,
+    "trunkRadius": 0.62,
+    "trunkHeight": 1.7,
+    "crownLow": 1.961,
+    "stems": 1,
+    "trianglesWood": 12524,
+    "trianglesLeaves": 6424,
+    "triangles": 18948,
+    "vertices": 22624,
+    "sprays": 3212,
+    "lod": 0,
+    "species": "sycamore",
+    "barkTint": [
+     1.25,
+     1.15,
+     0.9
+    ]
+   },
+   "mid": {
+    "file": "sycamore_01_broad_mid.glb",
+    "bytes": 873388,
+    "height": 10.037,
+    "radius": 7.476,
+    "trunkRadius": 0.62,
+    "trunkHeight": 1.7,
+    "crownLow": 1.978,
+    "stems": 1,
+    "trianglesWood": 5174,
+    "trianglesLeaves": 2394,
+    "triangles": 7568,
+    "vertices": 9569,
+    "sprays": 1197,
+    "lod": 1,
+    "species": "sycamore",
+    "barkTint": [
+     1.25,
+     1.15,
+     0.9
+    ]
+   }
+  }
+ ]
+}
