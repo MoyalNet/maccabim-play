@@ -3,8 +3,7 @@
 All files here are cut from recordings that carry the licence line **"CC0 1.0 Universal"** (Creative Commons 0, public
 domain dedication) on their Internet Archive pages, read on 18 Nov 2026. CC0 asks for no credit; it is given anyway.
 
-**Source collection:** "Red Library", a set of sound-effect items on the Internet Archive uploaded by Jason Scott
-(jscott@archive.org) on 19 May 2023, described there as "Sound effects from the USC Cinema and/or the Sunset Editorial
+**Source collection:** "Red Library", a set of sound-effect items on the Internet Archive uploaded by Jason Scott on 19 May 2023, described there as "Sound effects from the USC Cinema and/or the Sunset Editorial
 Collection ... digitized tapes provided by Craig Smith of USC". The CC0 dedication is the uploader's statement on those
 pages; the chain of title of the old studio tapes was NOT verified (open decision in docs/reports/eb12b-real-sound.md).
 These are film-library recordings of the 20th century, so what is on them (voices, steel, boots) is modern people and props:
