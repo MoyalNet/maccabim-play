@@ -1,7 +1,7 @@
 # המכבים · The Maccabees: playtest build
 
-עבודה בתהליך. גרסת ניסוי מ-20 בנובמבר 2026, עדכון רביעי (מקור: קומיט 14de885), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
-Work in progress: a playtest build of 20 Nov 2026, fourth update (source commit 14de885), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
+עבודה בתהליך. גרסת ניסוי מ-20 בנובמבר 2026, עדכון חמישי (מקור: קומיט 6a61af0), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
+Work in progress: a playtest build of 20 Nov 2026, fifth update (source commit 6a61af0), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
 
 ## Credits · תודות (as in the game's credits screen)
 - Verses, Hebrew: 1 Maccabees in A. Kahana's translation (כהנא), from Hebrew Wikisource. / ספר המקבים א: תרגום א. כהנא, מתוך ויקיטקסט.
@@ -16,4 +16,5 @@ Work in progress: a playtest build of 20 Nov 2026, fourth update (source commit 
 - Map place names and stream courses: © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright).
 - Typeface: Bellefair, Copyright 2015 The Bellefair Project Authors (https://github.com/shinntype/bellefair), SIL Open Font License 1.1 (map/Bellefair-OFL.txt).
 - Engine: three.js, Copyright © 2010-2026 three.js authors, MIT License.
+- Compressed textures for phones and tablets: the Basis Universal transcoder (`basis/`, shipped with three.js, Apache License 2.0, Binomial LLC) and KTX-Software `toktx` (Khronos, Apache License 2.0) were used for the KTX2 copies. / טקסטורות דחוסות לטלפונים וטאבלטים: מפענח Basis Universal (נשלח עם three.js, Apache 2.0) וכלי toktx של Khronos (Apache 2.0).
 - Voices: AI-generated speech, generated with ElevenLabs (elevenlabs.io); not recordings of actors. Other credits (animal and plant sounds, CC0 from Freesound): see audio/*/CREDITS.md.
