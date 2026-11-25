@@ -6,6 +6,7 @@ Work in progress: a playtest build of 25 Nov 2026, sixth update (source commit 0
 ## Credits · תודות (as in the game's credits screen)
 - Verses, Hebrew: 1 Maccabees in A. Kahana's translation (כהנא), from Hebrew Wikisource. / ספר המקבים א: תרגום א. כהנא, מתוך ויקיטקסט.
 - Verses, English: 1 Maccabees in the World English Bible (public domain), from ebible.org. A verbatim quotation is labelled so; a changed word is labelled "after the World English Bible".
+- Babylonian Talmud, Shabbat 21b (the oil tradition): text and English translation of the William Davidson edition, Sefaria (sefaria.org), CC BY-NC. / בבלי שבת כ"א ע"ב: מהדורת William Davidson, ספריא, CC BY-NC.
 - Terrain elevation: produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30. https://doi.org/10.5270/ESA-c5d3d65
 - Scanned materials and skies: Poly Haven and ambientCG (CC0 1.0 Universal); each item is listed in the game's credits screen (מקורות ותודות).
 - AI-generated images: the near branch tips of the trees are drawn from images generated with Google Gemini, not from scans. The skin textures of the main characters' faces were made from head sheets generated with Google Gemini.
