@@ -1,14 +1,15 @@
 # המכבים · The Maccabees: playtest build
 
-עבודה בתהליך. גרסת ניסוי מ-20 בנובמבר 2026, עדכון חמישי (מקור: קומיט 6a61af0), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
-Work in progress: a playtest build of 20 Nov 2026, fifth update (source commit 6a61af0), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
+עבודה בתהליך. גרסת ניסוי מ-25 בנובמבר 2026, עדכון שישי (מקור: קומיט 049b3fd), לכמה חברים. עדיף דפדפן שולחני עם כרטיס גרפי אמיתי (Chrome או Edge). הטעינה הראשונה לוקחת דקות. החומר ההיסטורי במשחק מסומן ברמות ודאות ובסימון "השלמה דרמטית".
+Work in progress: a playtest build of 25 Nov 2026, sixth update (source commit 049b3fd), for a few friends. Best on a desktop browser with a real graphics card (Chrome or Edge); the first load takes minutes. The game's historical material is labelled with certainty levels and as dramatization.
 
 ## Credits · תודות (as in the game's credits screen)
 - Verses, Hebrew: 1 Maccabees in A. Kahana's translation (כהנא), from Hebrew Wikisource. / ספר המקבים א: תרגום א. כהנא, מתוך ויקיטקסט.
 - Verses, English: 1 Maccabees in the World English Bible (public domain), from ebible.org. A verbatim quotation is labelled so; a changed word is labelled "after the World English Bible".
 - Terrain elevation: produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30. https://doi.org/10.5270/ESA-c5d3d65
 - Scanned materials and skies: Poly Haven and ambientCG (CC0 1.0 Universal); each item is listed in the game's credits screen (מקורות ותודות).
-- AI-generated images: the near branch tips of the trees are drawn from images generated with Google Gemini, not from scans.
+- AI-generated images: the near branch tips of the trees are drawn from images generated with Google Gemini, not from scans. The skin textures of the main characters' faces were made from head sheets generated with Google Gemini.
+- Music: 'Wanderlust' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au (audio/music/CREDITS.md). / מוזיקה: "Wanderlust" מאת Scott Buckley, ברישיון CC BY 4.0.
 - Characters: bodies by MakeHuman and MPFB (the MakeHuman community, CC0 assets). Walking and standing motion: the Universal Animation Library by Quaternius (CC0).
 - Combat motion: based on KayKit Character Animations 1.1 by Kay Lousberg (CC0), retargeted for the game. / תנועות קרב: מבוסס על KayKit Character Animations 1.1 של Kay Lousberg (CC0), מותאם למשחק.
 - Battle and camp sounds (module off by default): cut from the "Red Library" sound-effect items on the Internet Archive, which carry the line "CC0 1.0 Universal" on their pages; film-library recordings, a dramatization, not a record of the period. Sources: audio/battle/CREDITS.md.
@@ -17,4 +18,5 @@ Work in progress: a playtest build of 20 Nov 2026, fifth update (source commit 6
 - Typeface: Bellefair, Copyright 2015 The Bellefair Project Authors (https://github.com/shinntype/bellefair), SIL Open Font License 1.1 (map/Bellefair-OFL.txt).
 - Engine: three.js, Copyright © 2010-2026 three.js authors, MIT License.
 - Compressed textures for phones and tablets: the Basis Universal transcoder (`basis/`, shipped with three.js, Apache License 2.0, Binomial LLC) and KTX-Software `toktx` (Khronos, Apache License 2.0) were used for the KTX2 copies. / טקסטורות דחוסות לטלפונים וטאבלטים: מפענח Basis Universal (נשלח עם three.js, Apache 2.0) וכלי toktx של Khronos (Apache 2.0).
+- Tools: meshoptimizer (mesh decoder, via three.js), Arseny Kapoulkine, MIT License; Rhubarb Lip Sync 1.14.0 (mouth cues of the recorded voice lines), MIT License; Blender (blender.org) for modelling, rigging and baking.
 - Voices: AI-generated speech, generated with ElevenLabs (elevenlabs.io); not recordings of actors. Other credits (animal and plant sounds, CC0 from Freesound): see audio/*/CREDITS.md.
