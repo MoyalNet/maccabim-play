@@ -1,0 +1,13 @@
+{
+ "layers": [
+  "built/fieldstone",
+  "built/drystone",
+  "built/mud",
+  "built/plaster",
+  "built/reed",
+  "built/wood",
+  "ground/streamBed",
+  "built/limestone"
+ ],
+ "size": 1024
+}
